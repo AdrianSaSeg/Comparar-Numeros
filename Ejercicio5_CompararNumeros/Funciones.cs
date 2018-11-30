@@ -8,16 +8,6 @@ namespace Ejercicio5_CompararNumeros
 {
     class Funciones
     {
-        public static int suma(int x, int y)
-        {
-            return x + y;
-        }
-
-        public static double calculaIRPF(double sueldoBruto, double porcentaje)
-        {
-            return (sueldoBruto * porcentaje) / 100;
-        }
-
         public static int MayorMenor(int x, int y)
         {
             if (x > y)
@@ -31,8 +21,7 @@ namespace Ejercicio5_CompararNumeros
             else
             {
                 return 0;
-            }
-            
+            }    
         }
     }
 }
